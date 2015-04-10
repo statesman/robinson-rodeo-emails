@@ -104,7 +104,7 @@
           <div class="col-xs-12">
             <h3 class="date"><i class="fa fa-clock-o"></i> Aug. 8, 2013</h3>
 
-            <h4 class="note text-center"><i class="fa fa-envelope"></i> <span>Williams</span> e-mails <span>Robinson</span> after a meeting at 21CT</h4>
+            <h4 class="note text-center"><i class="fa fa-envelope"></i> <span>Irene Williams</span> e-mails <span>Karen Robinson</span> after a meeting at 21CT</h4>
           </div>
           <?php echo email('080813.jpg', $emails, 'right'); ?>
           <?php echo speaker('williams', 'right', true); ?>
@@ -112,8 +112,8 @@
 
         <div class="row">
           <?php echo note('Robinson', 'Williams'); ?>
-          <?php echo speaker('robinson', 'left', true); ?>
           <?php echo email('080813-kr1.jpg', $emails); ?>
+          <?php echo speaker('robinson', 'left', true); ?>
         </div>
 
         <div class="row">
@@ -128,8 +128,8 @@
           </div>
 
           <?php echo note('Robinson', 'Williams'); ?>
-          <?php echo speaker('robinson'); ?>
           <?php echo email('100813-kr1.jpg', $emails); ?>
+          <?php echo speaker('robinson'); ?>
         </div>
 
         <div class="row">
@@ -148,7 +148,7 @@
           <div class="col-xs-12">
             <h3 class="date"><i class="fa fa-clock-o"></i> Nov. 15, 2013</h3>
 
-            <h4 class="note text-center"><i class="fa fa-envelope"></i> <span>Hebert</span> e-mails <span>Robinson</span> after </h4>
+            <h4 class="note text-center"><i class="fa fa-envelope"></i> <span>Fred Hebert</span> e-mails <span>Robinson</span> after </h4>
           </div>
           <?php echo email('111513-hebert1.jpg', $emails, 'right'); ?>
           <?php echo speaker('hebert', 'right', true); ?>
@@ -160,8 +160,8 @@
           </div>
 
           <?php echo note('Robinson', 'Hebert'); ?>
-          <?php echo speaker('robinson', 'left', true); ?>
           <?php echo email('112613robinson1.jpg', $emails); ?>
+          <?php echo speaker('robinson', 'left', true); ?>
         </div>
 
         <div class="row">
@@ -180,7 +180,7 @@
           <div class="col-xs-12">
             <h3 class="date"><i class="fa fa-clock-o"></i> Oct. 16, 2014</h3>
 
-            <h4 class="note text-center"><i class="fa fa-envelope"></i> <span>Bentley</span> e-mails <span>Robinson</span> two days after she announces her retirement</h4>
+            <h4 class="note text-center"><i class="fa fa-envelope"></i> <span>David Bentley</span> e-mails <span>Robinson</span> two days after she announces her retirement</h4>
           </div>
           <?php echo email('101614-bentley1.jpg', $emails, 'right'); ?>
           <?php echo speaker('bentley', 'right', true); ?>
@@ -192,8 +192,8 @@
           </div>
 
           <?php echo note('Robinson', 'Bentley'); ?>
-          <?php echo speaker('robinson', 'left', true); ?>
           <?php echo email('102014-robinson.jpg', $emails); ?>
+          <?php echo speaker('robinson', 'left', true); ?>
         </div>
 
         <div class="row">

@@ -22,6 +22,9 @@ h4.note {
 .bubble {
   position: relative;
   margin: 0 @grid-gutter-width / 2 3em;
+  @media (max-width: @screen-xs-max) {
+    margin: 0 0 32px;
+  }
   border: @bubble-border-width solid @bubble-border-color;
   color: #333;
   background: #fff;
@@ -86,6 +89,19 @@ h4.note {
       right: -25px;
       border-width: 12px 0 12px 26px;
       border-color: transparent #fff;
+    }
+  }
+
+  @media (max-width: @screen-xs-max) {
+    &.left:before, &.right:before {
+      top: auto;
+      bottom: -30px;
+      left: 30px;
+      right: auto;
+      border-width: 0px 0px 30px 30px;
+    }
+    &.left:after, &.right:after {
+      display: none;
     }
   }
 

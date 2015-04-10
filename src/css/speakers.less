@@ -1,5 +1,7 @@
 .speaker {
-  text-align: center;
+  @media (min-width: @screen-sm-min) {
+    text-align: center;
+  }
 
   h3 {
     margin-top: 12px;
@@ -11,8 +13,10 @@
   }
 
   &.first-ref {
-    h3 {
-      border-bottom: 1px solid @gray-lighter;
+    @media (min-width: @screen-sm-min) {
+      h3 {
+        border-bottom: 1px solid @gray-lighter;
+      }
     }
   }
 
@@ -21,16 +25,32 @@
       font-size: 22px;
     }
 
-    img {
-      .center-block();
-      max-width: 80%;
+    @media (min-width: @screen-sm-min) {
+      img {
+        .center-block();
+        max-width: 80%;
+      }
     }
   }
 
-  &.left {
+  @media (max-width: @screen-xs-max) {
+    margin-bottom: 15px;
 
-  }
-  &.right {
+    img {
+      max-width: 75px;
+      height: auto;
+      .pull-left();
+      margin-right: 14px;
+    }
 
+    h3 {
+      margin-top: 0;
+      padding-bottom: 0;
+      margin-bottom: 5px;
+    }
+
+    h4 {
+      margin-top: 5px;
+    }
   }
 }
