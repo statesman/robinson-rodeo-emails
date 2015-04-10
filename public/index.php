@@ -6,10 +6,10 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => "Breaking down the state auditor’s 21CT report",
-        'description' => 'Read key excerpts from the report released by the State Auditor’s Office into the 21CT contracting scandal.',
-        'thumbnail' => 'http://projects.statesman.com/news/21ct-auditors-report/assets/share.jpg',
-        'url' => 'http://projects.statesman.com/news/21ct-auditors-report/',
+        'title' => "Karen Robinson’s conversations with IT vendors",
+        'description' => 'A review of former Texas DIR executive director Karen Robinson’s emails indicates that she intermingled her fundraising efforts with Rodeo Austin with her powerful role as the state’s chief information officer.',
+        'thumbnail' => 'http://projects.statesman.com/news/robinson-rodeo-emails/assets/share.jpg',
+        'url' => 'http://projects.statesman.comz/news/robinson-rodeo-emails/',
         'twitter' => 'statesman'
       );
     ?>
@@ -72,9 +72,10 @@
       <div class="header">
         <h4>Texas state government</h4>
         <h1><?php print $meta['title']; ?></h1>
-        <p class="author">Interactive by Andrew Chavez, J. David McSwane and Andrea Ball, American-Statesman<br />Published April 3, 2015</p>
-        <p>A report by State Auditor John Keel confirmed the findings of an American-Statesman investigation into a Medicaid fraud detection contract. The auditor found former Health and Human Services Commission official Jack Stick violated purchasing rules, misled the federal government and misused a state contracting program as he brokered multimillion deals with the company. The key findings from the report are below.</p>
-        <p><span>Related:</span> <a target="_blank" href="http://www.mystatesman.com/news/news/state-regional/audit-confirms-statesman-findings-that-21ct-deal-b/nkkty/">Audit confirms Statesman findings that 21CT deal broke rules, misled <i class="fa fa-angle-double-right"></i></a></p>
+        <p class="author">Interactive by Andrew Chavez, J. David McSwane and Andrea Ball, American-Statesman<br />Published April 12, 2015</p>
+        <p>Criminal investigators looking into Texas’ no-bid contract with Austin tech firm 21CT are now delving into allegations that Karen Robinson, the former executive director of the Department of Information Resources, abused her position when she urged companies vying for state business to donate to her favorite charity: Rodeo Austin.</p>
+        <p>While the scope of investigators’ interest in Robinson is unclear, sources close to the investigation confirmed suspicion of pay-to-play activity. A review of Robinson’s emails indicates that she intermingled her fundraising efforts with Rodeo Austin with her powerful role as the state’s chief information officer.</p>
+        <?php /*<p><span>Related:</span> <a target="_blank" href="http://www.mystatesman.com/news/news/state-regional/audit-confirms-statesman-findings-that-21ct-deal-b/nkkty/">Audit confirms Statesman findings that 21CT deal broke rules, misled <i class="fa fa-angle-double-right"></i></a></p> */?>
       </div>
 
       <hr />
@@ -148,7 +149,7 @@
           <div class="col-xs-12">
             <h3 class="date"><i class="fa fa-clock-o"></i> Nov. 15, 2013</h3>
 
-            <h4 class="note text-center"><i class="fa fa-envelope"></i> <span>Fred Hebert</span> e-mails <span>Robinson</span> after </h4>
+            <h4 class="note text-center"><i class="fa fa-envelope"></i> <span>Fred Hebert</span> e-mails <span>Robinson</span> after a visit from an Arkansas state official</h4>
           </div>
           <?php echo email('111513-hebert1.jpg', $emails, 'right'); ?>
           <?php echo speaker('hebert', 'right', true); ?>
@@ -203,6 +204,13 @@
         </div>
 
       </div>
+
+      <div class="well">
+        <a href="http://projects.statesman.com/documents/?doc=1811516-karen-robinson-rodeo-emails" target="_blank">
+          <i class="fa fa-external-link"></i> Read and search the complete set of emails in our interactive document viewer.
+        </a>
+      </div>
+
     </article>
 
     <div class="clearfix" id="ads">
