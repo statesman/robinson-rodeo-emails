@@ -73,7 +73,8 @@ function email($img, $emails, $dir = 'left') {
     array_push($classes, 'col-sm-push-3 col-md-push-2');
   }
 
-  $imgSlug = explode('.', $img)[0];
+  $imgSlug = explode('.', $img);
+  $imgSlug = $imgSlug[0];
   if(array_key_exists($imgSlug, $emails)) {
     $text = $emails->$imgSlug;
   }
